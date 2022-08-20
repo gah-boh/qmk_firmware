@@ -1,0 +1,4 @@
+SRC += muse.c
+LEADER_ENABLE = yes
+RGBLIGHT_ENABLE = no
+BACKLIGHT_ENABLE = no
