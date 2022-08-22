@@ -264,6 +264,18 @@ void matrix_scan_user(void) {
           // When I press KC_LEAD and then E, this sends CTRL + SHIFT + E
           SEND_STRING(SS_LCTRL(SS_LSFT("e")));
         }
+        SEQ_ONE_KEY(KC_H) {
+          SEND_STRING(SS_LCTRL(SS_LSFT("h")));
+        }
+        SEQ_ONE_KEY(KC_J) {
+          SEND_STRING(SS_LCTRL(SS_LSFT("j")));
+        }
+        SEQ_ONE_KEY(KC_K) {
+          SEND_STRING(SS_LCTRL(SS_LSFT("k")));
+        }
+        SEQ_ONE_KEY(KC_L) {
+          SEND_STRING(SS_LCTRL(SS_LSFT("l")));
+        }
   }
 }
 
